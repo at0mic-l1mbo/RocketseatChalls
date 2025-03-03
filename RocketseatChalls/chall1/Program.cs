@@ -1,4 +1,4 @@
-﻿namespace RocketseatChalls;
+﻿namespace RocketseatChalls.chall1;
 
 class Program
 {
@@ -8,14 +8,14 @@ class Program
         do {
             Console.WriteLine("Digite aqui o seu nome: ");
             name = Console.ReadLine();  
-            if(name == String.Empty)
+            if(name == string.Empty)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("[-] O campo nome não pode ser vazio, tente novamente...\n");
                 Console.ForegroundColor = ConsoleColor.White;
             }
         
-        } while (name == String.Empty);
+        } while (name == string.Empty);
 
         Console.WriteLine($"Olá {name}! Seja muito bem-vindo!");
     }
