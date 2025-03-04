@@ -2,7 +2,7 @@
 
 class Program
 {
-    public static void Main()
+    /*public static void Main()
     {
         string name;
         do {
@@ -18,5 +18,8 @@ class Program
         } while (name == string.Empty);
 
         Console.WriteLine($"Olá {name}! Seja muito bem-vindo!");
+        DateOnly data = new DateOnly(2025, 03, 02);
+        Console.WriteLine(data);
     }
+    */
 }
